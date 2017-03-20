@@ -4,10 +4,10 @@ A client and server that allow encrypted or unecnrypted file transfer.
 How to run:
 
 First, run the server:
-python3 server.py <port> <secretkey>
+python3 server.py *port secretkey
 
 Then run the client:
-python3 client.py <command> <filename> <address:port> <cipher> <sercretkey>
+python3 client.py *command filename address:port cipher sercretkey
 
 Port is the port number the server will listen on.
 
